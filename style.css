@@ -1,0 +1,187 @@
+.head{
+    width: 100vw;
+    height: 90px;
+    background-color:white;
+    border: 2px solid white;
+    
+}
+.bgrcolor{
+    width: 100vw;
+    height: 150vh;
+    background-color: #7B7B7B29;
+}
+.material-icons{
+    position: absolute;
+    right: 380px;
+    top: 160px;
+    font-size: 50px !important;
+}
+.headding{
+    position: absolute;
+    font-size:20px;
+    right: 230px;
+    top: 150px;
+}
+.flex-container{
+    margin-top: 150px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.flexitem1{
+    width: 240px;
+    height: 260px;
+    background-color: white;
+    position: relative;
+    left: 300px;
+    border-radius: 6px;
+    
+}
+.flexitem2{
+    width: 240px;
+    height: 260px;
+    background-color: white;
+    position: relative;
+    left: 340px;
+    top: 20px;
+    border-radius: 6px;
+
+}
+.flexitem3{
+    width: 240px;
+    height: 260px;
+    background-color: white;
+    position: relative;
+    left: 380px;
+    top: 20px;
+    border-radius: 6px;
+}
+.flexitem4{
+    width: 240px;
+    height: 260px;
+    background-color: white;
+    position: relative;
+    top: 320px;
+    right: 420px;
+    border-radius: 6px;
+}
+.flexitem5{
+    width: 240px;
+    height: 260px;
+    background-color: white;
+    position: relative;
+    top:320px;
+    right: 380px;
+    border-radius: 6px;
+  
+}
+
+@media screen and (max-width:416px) {
+    .head{
+        width: 414px;
+        top: 90px;
+        font-size: 15px;
+    }
+    .material-icons{
+        position: absolute;
+        top: 160px;
+        right: 207px;
+        font-size: 25px !important;
+    }
+    .flex-container{
+        flex-direction: column;
+        justify-content: space-between;
+        display: block;
+    }
+    .flexitem1{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .flexitem2{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .flexitem3{
+        position: relative;
+        left: 20px;
+        bottom: 10px;
+    }
+    .flexitem4{
+        position: relative;
+        right: -13px;
+        top: 30px;
+
+
+    }
+    .flexitem5{
+        position: relative;
+        right: -15px;
+        top: 45px;
+    }
+}
+
+
+
+@media screen and (min-width:417px) and (max-width:825px) {
+    .head{
+        width: 820px;
+        top: 90px;
+        font-size: 15px;
+    }
+    .material-icons{
+        position: absolute;
+        top: 160px;
+        right: 216px;
+        font-size: 25px !important;
+    }
+     .flex-container{
+        display: inline-block;
+     }   
+    
+    
+    .flexitem1{
+        position: absolute;
+        left: 110px;
+        top: 250px;
+    }
+    .flexitem2{
+        position: absolute;
+        top: 250px;
+        left: 490px;
+    }
+    .flexitem3{
+        position: relative;
+        left: 35px;
+        top: 330px;
+    }
+    .flexitem4{
+        position: relative;
+        top: 55px;
+        left: 410px;
+    }
+    .flexitem5{
+        position: relative;
+        top: 100px;
+        left: 220px;
+    }
+   
+
+
+
+
+}
+
+
+
+
+
+  
+
+    
+    
+
+    
